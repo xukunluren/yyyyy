@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672FA0FB1E1634AA00300F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FA0FA1E1634AA00300F4A /* main.m */; };
+		672FA0FE1E1634AA00300F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FA0FD1E1634AA00300F4A /* AppDelegate.m */; };
+		672FA1011E1634AA00300F4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FA1001E1634AA00300F4A /* ViewController.m */; };
+		672FA1041E1634AA00300F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672FA1021E1634AA00300F4A /* Main.storyboard */; };
+		672FA1061E1634AA00300F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672FA1051E1634AA00300F4A /* Assets.xcassets */; };
+		672FA1091E1634AA00300F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672FA1071E1634AA00300F4A /* LaunchScreen.storyboard */; };
+		672FA1141E1634AA00300F4A /* nihaoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FA1131E1634AA00300F4A /* nihaoTestTests.m */; };
+		672FA11F1E1634AA00300F4A /* nihaoTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FA11E1E1634AA00300F4A /* nihaoTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		672FA1101E1634AA00300F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672FA0EE1E1634AA00300F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 672FA0F51E1634AA00300F4A;
+			remoteInfo = nihaoTest;
+		};
+		672FA11B1E1634AA00300F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672FA0EE1E1634AA00300F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 672FA0F51E1634AA00300F4A;
+			remoteInfo = nihaoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		672FA0F61E1634AA00300F4A /* nihaoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nihaoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		672FA0FA1E1634AA00300F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		672FA0FC1E1634AA00300F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		672FA0FD1E1634AA00300F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		672FA0FF1E1634AA00300F4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		672FA1001E1634AA00300F4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		672FA1031E1634AA00300F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		672FA1051E1634AA00300F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		672FA1081E1634AA00300F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		672FA10A1E1634AA00300F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		672FA10F1E1634AA00300F4A /* nihaoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nihaoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		672FA1131E1634AA00300F4A /* nihaoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihaoTestTests.m; sourceTree = "<group>"; };
+		672FA1151E1634AA00300F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		672FA11A1E1634AA00300F4A /* nihaoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nihaoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		672FA11E1E1634AA00300F4A /* nihaoTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihaoTestUITests.m; sourceTree = "<group>"; };
+		672FA1201E1634AA00300F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		672FA0F31E1634AA00300F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA10C1E1634AA00300F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA1171E1634AA00300F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		672FA0ED1E1634AA00300F4A = {
+			isa = PBXGroup;
+			children = (
+				672FA0F81E1634AA00300F4A /* nihaoTest */,
+				672FA1121E1634AA00300F4A /* nihaoTestTests */,
+				672FA11D1E1634AA00300F4A /* nihaoTestUITests */,
+				672FA0F71E1634AA00300F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		672FA0F71E1634AA00300F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				672FA0F61E1634AA00300F4A /* nihaoTest.app */,
+				672FA10F1E1634AA00300F4A /* nihaoTestTests.xctest */,
+				672FA11A1E1634AA00300F4A /* nihaoTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		672FA0F81E1634AA00300F4A /* nihaoTest */ = {
+			isa = PBXGroup;
+			children = (
+				672FA0FC1E1634AA00300F4A /* AppDelegate.h */,
+				672FA0FD1E1634AA00300F4A /* AppDelegate.m */,
+				672FA0FF1E1634AA00300F4A /* ViewController.h */,
+				672FA1001E1634AA00300F4A /* ViewController.m */,
+				672FA1021E1634AA00300F4A /* Main.storyboard */,
+				672FA1051E1634AA00300F4A /* Assets.xcassets */,
+				672FA1071E1634AA00300F4A /* LaunchScreen.storyboard */,
+				672FA10A1E1634AA00300F4A /* Info.plist */,
+				672FA0F91E1634AA00300F4A /* Supporting Files */,
+			);
+			path = nihaoTest;
+			sourceTree = "<group>";
+		};
+		672FA0F91E1634AA00300F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				672FA0FA1E1634AA00300F4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		672FA1121E1634AA00300F4A /* nihaoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				672FA1131E1634AA00300F4A /* nihaoTestTests.m */,
+				672FA1151E1634AA00300F4A /* Info.plist */,
+			);
+			path = nihaoTestTests;
+			sourceTree = "<group>";
+		};
+		672FA11D1E1634AA00300F4A /* nihaoTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				672FA11E1E1634AA00300F4A /* nihaoTestUITests.m */,
+				672FA1201E1634AA00300F4A /* Info.plist */,
+			);
+			path = nihaoTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		672FA0F51E1634AA00300F4A /* nihaoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672FA1231E1634AA00300F4A /* Build configuration list for PBXNativeTarget "nihaoTest" */;
+			buildPhases = (
+				672FA0F21E1634AA00300F4A /* Sources */,
+				672FA0F31E1634AA00300F4A /* Frameworks */,
+				672FA0F41E1634AA00300F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nihaoTest;
+			productName = nihaoTest;
+			productReference = 672FA0F61E1634AA00300F4A /* nihaoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		672FA10E1E1634AA00300F4A /* nihaoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672FA1261E1634AA00300F4A /* Build configuration list for PBXNativeTarget "nihaoTestTests" */;
+			buildPhases = (
+				672FA10B1E1634AA00300F4A /* Sources */,
+				672FA10C1E1634AA00300F4A /* Frameworks */,
+				672FA10D1E1634AA00300F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672FA1111E1634AA00300F4A /* PBXTargetDependency */,
+			);
+			name = nihaoTestTests;
+			productName = nihaoTestTests;
+			productReference = 672FA10F1E1634AA00300F4A /* nihaoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		672FA1191E1634AA00300F4A /* nihaoTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672FA1291E1634AA00300F4A /* Build configuration list for PBXNativeTarget "nihaoTestUITests" */;
+			buildPhases = (
+				672FA1161E1634AA00300F4A /* Sources */,
+				672FA1171E1634AA00300F4A /* Frameworks */,
+				672FA1181E1634AA00300F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672FA11C1E1634AA00300F4A /* PBXTargetDependency */,
+			);
+			name = nihaoTestUITests;
+			productName = nihaoTestUITests;
+			productReference = 672FA11A1E1634AA00300F4A /* nihaoTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		672FA0EE1E1634AA00300F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xukun;
+				TargetAttributes = {
+					672FA0F51E1634AA00300F4A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5G6X7E2225;
+						ProvisioningStyle = Automatic;
+					};
+					672FA10E1E1634AA00300F4A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5G6X7E2225;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 672FA0F51E1634AA00300F4A;
+					};
+					672FA1191E1634AA00300F4A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5G6X7E2225;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 672FA0F51E1634AA00300F4A;
+					};
+				};
+			};
+			buildConfigurationList = 672FA0F11E1634AA00300F4A /* Build configuration list for PBXProject "nihaoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 672FA0ED1E1634AA00300F4A;
+			productRefGroup = 672FA0F71E1634AA00300F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				672FA0F51E1634AA00300F4A /* nihaoTest */,
+				672FA10E1E1634AA00300F4A /* nihaoTestTests */,
+				672FA1191E1634AA00300F4A /* nihaoTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		672FA0F41E1634AA00300F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672FA1091E1634AA00300F4A /* LaunchScreen.storyboard in Resources */,
+				672FA1061E1634AA00300F4A /* Assets.xcassets in Resources */,
+				672FA1041E1634AA00300F4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA10D1E1634AA00300F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA1181E1634AA00300F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		672FA0F21E1634AA00300F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672FA1011E1634AA00300F4A /* ViewController.m in Sources */,
+				672FA0FE1E1634AA00300F4A /* AppDelegate.m in Sources */,
+				672FA0FB1E1634AA00300F4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA10B1E1634AA00300F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672FA1141E1634AA00300F4A /* nihaoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA1161E1634AA00300F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672FA11F1E1634AA00300F4A /* nihaoTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		672FA1111E1634AA00300F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 672FA0F51E1634AA00300F4A /* nihaoTest */;
+			targetProxy = 672FA1101E1634AA00300F4A /* PBXContainerItemProxy */;
+		};
+		672FA11C1E1634AA00300F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 672FA0F51E1634AA00300F4A /* nihaoTest */;
+			targetProxy = 672FA11B1E1634AA00300F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		672FA1021E1634AA00300F4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				672FA1031E1634AA00300F4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		672FA1071E1634AA00300F4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				672FA1081E1634AA00300F4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		672FA1211E1634AA00300F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		672FA1221E1634AA00300F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		672FA1241E1634AA00300F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5G6X7E2225;
+				INFOPLIST_FILE = nihaoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weimob.nihaoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		672FA1251E1634AA00300F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5G6X7E2225;
+				INFOPLIST_FILE = nihaoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weimob.nihaoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		672FA1271E1634AA00300F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5G6X7E2225;
+				INFOPLIST_FILE = nihaoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weimob.nihaoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nihaoTest.app/nihaoTest";
+			};
+			name = Debug;
+		};
+		672FA1281E1634AA00300F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5G6X7E2225;
+				INFOPLIST_FILE = nihaoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weimob.nihaoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nihaoTest.app/nihaoTest";
+			};
+			name = Release;
+		};
+		672FA12A1E1634AA00300F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5G6X7E2225;
+				INFOPLIST_FILE = nihaoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weimob.nihaoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nihaoTest;
+			};
+			name = Debug;
+		};
+		672FA12B1E1634AA00300F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5G6X7E2225;
+				INFOPLIST_FILE = nihaoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weimob.nihaoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nihaoTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		672FA0F11E1634AA00300F4A /* Build configuration list for PBXProject "nihaoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672FA1211E1634AA00300F4A /* Debug */,
+				672FA1221E1634AA00300F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672FA1231E1634AA00300F4A /* Build configuration list for PBXNativeTarget "nihaoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672FA1241E1634AA00300F4A /* Debug */,
+				672FA1251E1634AA00300F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		672FA1261E1634AA00300F4A /* Build configuration list for PBXNativeTarget "nihaoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672FA1271E1634AA00300F4A /* Debug */,
+				672FA1281E1634AA00300F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		672FA1291E1634AA00300F4A /* Build configuration list for PBXNativeTarget "nihaoTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672FA12A1E1634AA00300F4A /* Debug */,
+				672FA12B1E1634AA00300F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 672FA0EE1E1634AA00300F4A /* Project object */;
+}
